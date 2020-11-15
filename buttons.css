@@ -1,0 +1,27 @@
+.kill-random-lord-button {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+
+    cursor: pointer;
+    min-width: 150px;
+    margin: 1em;
+    padding: 1em 2em;
+    border-radius: 5px;
+    background-color: #4f2424;
+    color: #d14c4c;
+    border-color: #d14c4c;
+}
+
+.kill-random-lord-button:hover {
+    background-color: #472020;
+}
+
+.kill-random-lord-button:focus {
+    outline: none;
+}
+
+.kill-random-lord-button__sword-icon {
+    height: 20px;
+    margin-left: 10px;
+}

@@ -1,0 +1,28 @@
+.got-house {
+    flex-grow: 1;
+    align-self: stretch;
+
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #fcc48c;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+
+.got-house-list {
+    align-self: stretch;
+    padding: 10px;
+    background-color: #4f2424;
+    color: #fcc48c;
+    flex-grow: 1;
+    border-top: 1px solid #fcc48c;
+}
+
+.got-house__title {
+    align-self: center;
+}
+
+.got-house__current-lord {
+    margin-left: auto;
+}
